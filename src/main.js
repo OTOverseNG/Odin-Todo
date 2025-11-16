@@ -42,6 +42,10 @@ export const todoManager = () => {
         
     }
 
+    function editTodo(id, newTodo){
+        return;
+    }
+
     function getTodos(){
         return [...todos];
     }

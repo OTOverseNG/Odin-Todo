@@ -6,5 +6,49 @@
     <title>Todo App</title>
 </head>
 <body>
+    <div id="wrapper">
+        <div id="nav">
+            <header>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg"  height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m438-240 226-226-58-58-169 169-84-84-57 57 142 142ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>
+                </div>
+                <div>
+                    <h2>OTOverse Todo</h2>
+                    <p>A simple Todo App</p>
+                </div>
+            </header>
+        </div>
+
+        <div id="main">
+            <div class="side-bar">
+                <h3>My Projects</h3>
+                <ul class="projects-list">
+                    <li class="project default-project">Default Project</li>
+        
+                </ul>
+                <button class="add-project-btn add-project-modal">+ Add New Project</button>
+            </div>
+            <div class="task-list-bar"></div>
+        </div>
+
+        <div class="footer">
+
+        </div>
+    </div>
+
+    <div id="add-project-popup" class="hidden add-project-popup">
+        <div class="modal">
+            <form>
+                <h3>Add New Project</h3>
+                <div class="info">
+                    <input type="text" placeholder="Project Name" required>
+                </div>
+                <div class="button">
+                    <button type="submit">Add Project</button>
+                    <button type="button" class="close-btn">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
